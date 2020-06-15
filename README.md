@@ -7,4 +7,5 @@ This Go program is mainly for me to learn how to concurrently download multiple 
 ![Code](carbon.png)
 
 [Goroutine Reference](https://gist.github.com/nevermosby/b54d473ea9153bb75eebd14d8d816544)
+
 [JSON Struct Reference](https://github.com/pitakill/rickandmortyapigowrapper/blob/master/character_structs.go)
