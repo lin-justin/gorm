@@ -4,7 +4,7 @@
 
 This Go program is mainly for me to learn how to concurrently download multiple images from different URLs by connecting to a public API and parsing the nested JSON.
 
-The [images folder](images) contains all the images downloaded from the API.
+The [images folder](images) contains all the images downloaded from the Go program.
 
 The screenshot below is `main.go`'s `main()` function's code:
 
