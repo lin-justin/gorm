@@ -4,7 +4,7 @@
 
 This Go program is mainly for me to learn how to concurrently download multiple images from different URLs by connecting to a public API and parsing the nested JSON.
 
-![Code](carbon.png)
+![Code](gorm_code.png)
 
 [Goroutine Reference](https://gist.github.com/nevermosby/b54d473ea9153bb75eebd14d8d816544)
 
