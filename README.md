@@ -1,3 +1,34 @@
+# GoGhibli
+
+[Studio Ghibli API](https://ghibliapi.herokuapp.com/)
+
+## Usage
+
+```
+$ go run main.go -film="My Neighbor Totoro"
+
+Title: My Neighbor Totoro
+------------------------
+Description: Two sisters move to the country with their father in order to be closer to their hospitalized 
+mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. 
+When the youngest runs away from home, the older sister seeks help from the spirits to find her.
+------------------------
+Director: Hayao Miyazaki
+------------------------
+Producer: Hayao Miyazaki
+------------------------
+Release Year: 1988
+------------------------
+Rotten Tomato Score: 93
+------------------------
+```
+
+The default film is `Castle in the Sky`. The `-film` flag only accepts valid Studio Ghibli feature films. [Here](https://en.wikipedia.org/wiki/List_of_Studio_Ghibli_works#Feature_films) is a link to these films.
+
+**The film must be enclosed in double quotation marks in order for the CLI to run, i.e. `-film="Feature Film of Interest"`.**
+
+[Reference](https://github.com/mikicaivosevic/golang-json-client)
+
 # GoRM
 
 [Rick and Morty API](https://rickandmortyapi.com/)
