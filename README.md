@@ -17,7 +17,7 @@ A CLI program in Go that computes several string metric algorithms for two strin
 The algorithms used are Hamming Distance, Damerau-Levenshtein, Jaccard coefficient, and Jaccard distance.
 
 ## Usage
-```go
+```
 $ go run main.go -string1=kitten -string2=sitting -metric=hamming
 
 The Hamming distance for kitten and sitting is: 2
