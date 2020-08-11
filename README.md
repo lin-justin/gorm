@@ -1,8 +1,12 @@
-# GoGhibli
+# Go Stuff
+
+The purpose of this project is to learn the Go programming language and practice implementing command line interface scripts.
+
+## GoGhibli
 
 [Studio Ghibli API](https://ghibliapi.herokuapp.com/)
 
-## Usage
+### Usage
 
 ```
 $ go run main.go -film="My Neighbor Totoro"
@@ -29,7 +33,7 @@ The default film is `Castle in the Sky`. The `-film` flag only accepts valid Stu
 
 [Reference](https://github.com/mikicaivosevic/golang-json-client)
 
-# GoRM
+## GoRM
 
 [Rick and Morty API](https://rickandmortyapi.com/)
 
@@ -41,13 +45,13 @@ The [images folder](images) contains all the images downloaded from the Go progr
 
 [JSON Struct Reference](https://github.com/pitakill/rickandmortyapigowrapper/blob/master/character_structs.go)
 
-# GoSM
+## GoSM
 
 A CLI program in Go that computes several string metric algorithms for two strings.
 
 The algorithms used are Hamming Distance, Damerau-Levenshtein, Jaccard coefficient, and Jaccard distance.
 
-## Usage
+### Usage
 ```
 $ go run main.go -string1=kitten -string2=sitting -metric=hamming
 
